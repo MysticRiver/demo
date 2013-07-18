@@ -7,8 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  
+  <div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="/songs">All About Songs</a>
+    <ul class="nav">
+      <li class="active"><a href="/songs">Home</a></li>
+      <li><a href="/songs/new">Add New Song</a></li>
+     
+    </ul>
+  </div>
+</div>
+  
+  
+<div class ="container">
 <%= yield %>
+  </div>
 
 </body>
 </html>
